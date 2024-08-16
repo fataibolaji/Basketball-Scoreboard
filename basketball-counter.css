@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'digital_7_';
+    src: url("fonts/digital_7_.ttf");
+} 
+    
+body {
+    margin: 0;
+    background-color: #1B244A;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 60%;
+    max-width: 800px;
+}
+
+h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#home-score {
+    color: #F94F6D;
+    align-items: center;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px #080001;
+    border-radius: 10px;
+    background-color: black;
+    font-family:'digital_7_';
+    width: 250px;
+    height: 200px;
+}
+
+#guest-score {
+    color: #F94F6D;
+    align-items: center;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px #080001;
+    border-radius: 10px;
+    background-color: black;
+    font-family:'digital_7_';
+    width: 250px;
+    height: 200px;
+}
+
+#home-board {
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#guest-board {
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'digital_7_';
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.add-button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
